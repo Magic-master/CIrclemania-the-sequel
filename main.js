@@ -22,7 +22,7 @@ function my_mousemove(e) {
     var current_position_of_mouse_x = e.clientX - canvas.offsetLeft;
     var current_position_of_mouse_y = e.clientY - canvas.offsetTop;
 
-    if (ifmouseEvent == "mousedown") {
+    if (mouseEvent == "mousedown") {
         ctx.beginPath();
         ctx.strokeStyle = color;
         ctx.lineWidth = width_of_line;
